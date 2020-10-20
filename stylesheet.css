@@ -1,0 +1,159 @@
+@font-face{
+    font-family: 'font1';
+    src: url(/Users/kouta/Desktop/practice2/font/Balsamiq_Sans/BalsamiqSans-Bold.ttf);
+    
+    src: url(/Users/kouta/Desktop/practice2/font/PT_Sans/PTSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'font2';
+    src: url(/Users/kouta/Desktop/practice2/font/M_PLUS_Rounded_1c/MPLUSRounded1c-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'font2-normal';
+    src: url(/Users/kouta/Desktop/practice2/font/M_PLUS_Rounded_1c/MPLUSRounded1c-Light.ttf);
+}
+
+header{
+    font-family: font2;
+    background-color: skyblue;
+    font-size: 12px;
+    color:white;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index: 10px;
+}
+
+header img{
+    width: 80px;
+    height: 60px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    float: left;
+}
+
+header p{
+    margin-left: 25px;
+    font-weight: normal;
+}
+
+.header-right{
+    float: right;
+    padding: 0px 20px;
+}
+
+header li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+header li:hover{
+    opacity: 0.8;
+}
+
+.signup{
+    margin-right: 20px;
+    padding:5px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question{
+    padding:5px 10px;
+    border: 2px solid white;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+body{
+    max-width: 100%;
+    font-family: font2;
+}
+
+.top{
+    background-image: url("/Users/kouta/Desktop/practice2/img/background.jpg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    width:100%;
+    padding-top: 400px;
+    padding-bottom: 400px;
+}
+
+.top-container{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.top-title{
+    font-family: font2;
+    margin-left: 380px;
+    margin-bottom: 60px;
+    padding: 10px 10px;
+    width: 40%;
+    background-color: rgb(112, 228, 248,0.6);
+    border-radius: 30px;
+    font-weight: normal;
+    font-size: 36px;
+    color: aliceblue;
+}
+
+
+
+
+.contents{
+    margin-top: 20px;
+    float: left;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.content{
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.content img{
+    max-width: 50%;
+    width: 50%;
+    float: left;
+}
+
+.caption{
+    font-size: 18px;
+    font-family: font2-normal;
+    font-weight: normal;
+}
+
+.content-title{
+    display: inline-block;
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+}
+
+.content a{
+    background-color: rgba(150, 212, 253,0.8);
+    color:white;
+    padding: 10px 10px;
+    border-radius: 8px;
+}
+
+.footer{
+    display: block;
+    margin-top: 2400px;
+    width: 100%;
+}
+
+.footer-logo{
+    background-color: skyblue;
+}
